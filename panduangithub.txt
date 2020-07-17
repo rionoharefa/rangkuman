@@ -1,0 +1,129 @@
+Proyek Hello World adalah tradisi yang dihormati waktu dalam pemrograman komputer. Ini adalah latihan sederhana yang membantu Anda memulai ketika mempelajari sesuatu yang baru. Mari kita mulai dengan GitHub!
+
+Anda akan belajar cara:
+
+Buat dan gunakan repositori
+Mulai dan kelola cabang baru
+Buat perubahan pada file dan dorong file itu ke GitHub saat melakukan
+Buka dan gabungkan permintaan tarik
+
+Apa itu GitHub?
+GitHub adalah platform kode hosting untuk kontrol dan kolaborasi versi. Ini memungkinkan Anda dan orang lain bekerja sama dalam proyek dari mana saja.
+
+Tutorial ini mengajarkan Anda hal-hal penting GitHub seperti repositori , cabang , komitmen , dan Permintaan Tarik . Anda akan membuat repositori Hello World Anda sendiri dan mempelajari alur kerja Tarik Permintaan GitHub, cara populer untuk membuat dan meninjau kode.
+
+Tidak perlu coding
+Untuk menyelesaikan tutorial ini, Anda memerlukan akun GitHub.com dan akses Internet. Anda tidak perlu tahu cara membuat kode, menggunakan baris perintah, atau menginstal Git (perangkat lunak kontrol versi yang dibangun GitHub).
+
+Kiat: Buka panduan ini di jendela (atau tab) browser terpisah sehingga Anda bisa melihatnya saat Anda menyelesaikan langkah-langkah dalam tutorial.
+
+
+Langkah 1. Buat Repositori
+Sebuah repositori biasanya digunakan untuk mengatur satu proyek. Repositori dapat berisi folder dan file, gambar, video, spreadsheet, dan kumpulan data - apa pun yang dibutuhkan proyek Anda. Kami merekomendasikan untuk menyertakan README , atau file dengan informasi tentang proyek Anda. GitHub memudahkan untuk menambahkan satu pada saat yang sama Anda membuat repositori baru Anda. Ini juga menawarkan opsi umum lainnya seperti file lisensi.
+
+hello-worldGudang Anda bisa menjadi tempat Anda menyimpan ide, sumber daya, atau bahkan berbagi dan mendiskusikan berbagai hal dengan orang lain.
+
+Untuk membuat repositori baru
+Di sudut kanan atas, di sebelah avatar atau identitas Anda, klik lalu pilih Repositori baru .
+Beri nama repositori Anda hello-world.
+Tulis deskripsi singkat.
+Pilih Inisialisasi repositori ini dengan README .
+bentuk-repo baru
+
+Klik Buat repositori .
+
+
+Langkah 2. Buat Cabang
+Percabangan adalah cara untuk bekerja pada berbagai versi repositori sekaligus.
+
+Secara default repositori Anda memiliki satu cabang bernama masteryang dianggap sebagai cabang definitif. Kami menggunakan cabang untuk bereksperimen dan melakukan pengeditan sebelum melakukannya master.
+
+Ketika Anda membuat cabang dari mastercabang, Anda membuat salinan, atau snapshot, masterseperti pada saat itu. Jika orang lain membuat perubahan ke mastercabang saat Anda bekerja di cabang Anda, Anda bisa menarik pembaruan itu.
+
+Diagram ini menunjukkan:
+
+The mastercabang
+Cabang baru bernama feature(karena kami sedang melakukan 'kerja fitur' di cabang ini)
+Perjalanan yang featuredibutuhkan sebelum dileburmaster
+sebuah cabang
+
+Pernahkah Anda menyimpan versi file yang berbeda? Sesuatu seperti:
+
+story.txt
+story-joe-edit.txt
+story-joe-edit-reviewed.txt
+Cabang-cabang mencapai tujuan yang sama dalam repositori GitHub.
+
+Di sini, di GitHub, pengembang, penulis, dan desainer kami menggunakan cabang untuk menjaga perbaikan bug dan pekerjaan fitur terpisah dari mastercabang (produksi) kami. Ketika suatu perubahan siap, mereka menggabungkan cabang mereka menjadi master.
+
+Untuk membuat cabang baru
+Pergi ke repositori baru Anda hello-world.
+Klik tarik turun di bagian atas daftar file yang mengatakan cabang: master .
+Ketikkan nama cabang readme-edits,, ke dalam kotak teks cabang baru.
+Pilih kotak biru Buat cabang atau tekan "Enter" pada keyboard Anda.
+cabang gif
+
+Sekarang Anda memiliki dua cabang, masterdan readme-edits. Mereka terlihat persis sama, tetapi tidak lama! Selanjutnya kita akan menambahkan perubahan kita ke cabang baru.
+
+
+Langkah 3. Buat dan lakukan perubahan
+Bravo! Sekarang, Anda berada di tampilan kode untuk readme-editscabang Anda , yang merupakan salinan dari master. Mari kita edit.
+
+Di GitHub, perubahan yang disimpan disebut commit . Setiap komit memiliki pesan komit terkait , yang merupakan deskripsi yang menjelaskan mengapa perubahan tertentu dibuat. Pesan komit menangkap riwayat perubahan Anda, sehingga kontributor lain dapat memahami apa yang telah Anda lakukan dan mengapa.
+
+Buat dan lakukan perubahan
+Klik README.mdfile tersebut.
+Klik tautan  ikon pensil di sudut kanan atas tampilan file untuk diedit.
+Di editor, tulis sedikit tentang diri Anda.
+Tulis pesan komit yang menjelaskan perubahan Anda.
+Klik tombol Komit perubahan .
+melakukan
+
+Perubahan ini akan dibuat hanya untuk file README di readme-editscabang Anda , jadi sekarang cabang ini berisi konten yang berbeda master.
+
+
+Langkah 4. Buka Permintaan Tarik
+Suntingan yang bagus! Sekarang setelah Anda memiliki perubahan dalam cabang master, Anda dapat membuka permintaan tarik .
+
+Pull Requests adalah jantung kolaborasi di GitHub. Saat Anda membuka permintaan tarik , Anda mengusulkan perubahan Anda dan meminta seseorang meninjau dan menarik kontribusi Anda dan menggabungkannya ke cabang mereka. Permintaan tarik menunjukkan diffs , atau perbedaan, isi dari kedua cabang. Perubahan, penambahan, dan pengurangan ditampilkan dalam warna hijau dan merah.
+
+Segera setelah Anda membuat komitmen, Anda dapat membuka permintaan tarik dan memulai diskusi, bahkan sebelum kode selesai.
+
+Dengan menggunakan sistem @ition GitHub dalam pesan permintaan tarik Anda, Anda dapat meminta umpan balik dari orang atau tim tertentu, apakah mereka sedang berada di aula atau 10 zona waktu jauhnya.
+
+Anda bahkan dapat membuka permintaan tarik di repositori Anda sendiri dan menggabungkannya sendiri. Ini cara yang bagus untuk mempelajari aliran GitHub sebelum mengerjakan proyek yang lebih besar.
+
+Buka Permintaan Tarik untuk perubahan pada README
+Klik pada gambar untuk versi yang lebih besar
+
+Langkah	Tangkapan layar
+Klik tautan  Tarik Permintaan , lalu dari halaman Tarik Permintaan, klik tombol hijau Permintaan tarik baru .	pr-tab
+Di kotak Contoh Perbandingan , pilih cabang yang Anda buat readme-edits,, untuk dibandingkan dengan master(asli).	cabang
+Lihat perubahan Anda di difs pada halaman Bandingkan, pastikan itu adalah apa yang ingin Anda kirim.	beda
+Ketika Anda puas bahwa ini adalah perubahan yang ingin Anda kirim, klik tombol Buat Tarik Permintaan berwarna hijau besar .	buat-tarik
+Berikan judul permintaan tarik pada Anda dan tulis deskripsi singkat tentang perubahan Anda.	bentuk-pr
+Setelah selesai dengan pesan Anda, klik Buat permintaan tarik !
+
+Kiat : Anda dapat menggunakan emoji dan seret dan lepas gambar dan gif ke komentar dan Tarik Permintaan.
+
+
+Langkah 5. Gabungkan Permintaan Tarik Anda
+Pada langkah terakhir ini, saatnya untuk membawa perubahan Anda bersama - menggabungkan readme-editscabang Anda ke mastercabang.
+
+Klik tombol hijau Gabungkan permintaan tarik untuk menggabungkan perubahan menjadi master.
+Klik Konfirmasikan penggabungan .
+Silakan dan hapus cabang, karena perubahannya telah dimasukkan, dengan tombol Hapus cabang di kotak ungu.
+menggabungkan menghapus
+
+Merayakan!
+Dengan menyelesaikan tutorial ini, Anda telah belajar membuat proyek dan membuat permintaan tarik di GitHub!
+
+Inilah yang Anda capai dalam tutorial ini:
+
+Membuat repositori open source
+Memulai dan mengelola cabang baru
+Mengubah file dan melakukan perubahan itu ke GitHub
+Membuka dan menggabungkan Permintaan Tarik
+Lihatlah profil GitHub Anda dan Anda akan melihat kotak kontribusi baru Anda !
+
+Untuk mempelajari lebih lanjut tentang kekuatan Permintaan Tarik, kami sarankan membaca Panduan aliran GitHub . Anda juga dapat mengunjungi GitHub Explore dan terlibat dalam proyek Open Source.
